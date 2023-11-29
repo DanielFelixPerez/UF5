@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <title>Formulario</title>
+  <link rel="stylesheet" href="../css/formulario.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Formulario</h1>
+    <form id="infoForm" action="#" method="post">
+        <fieldset>
+            <legend>Información Básica</legend>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="altura">Altura (cm):</label>
+                <input type="number" id="altura" name="altura" min="0" max="300" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+            </div>
+            <div>
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Nacionalidad</legend>
+            <div>
+                <label for="nacionalidad">Nacionalidad:</label>
+                <select id="nacionalidad" name="nacionalidad" required>
+                    <option value="espanola">Española</option>
+                    <option value="extranjera">Comunitario(UE)</option>
+                    <option value="doble_ciudadania">No comunitario</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Estudios</legend>
+            <div>
+                <label for="estudios">Estudios:</label>
+                <select id="estudios" name="estudios" required>
+                    <option value="ESO">ESO</option>
+                    <option value="GM">GM</option>
+                    <option value="GS">GS</option>
+                    <option value="Universidad">Universidad</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Idiomas</legend>
+            <div>
+                <label>
+                    <input type="checkbox" id="idioma1" name="idioma1">Catalan
+                </label>
+                <label>
+                    <input type="checkbox" id="idioma2" name="idioma2">Castellano
+                </label>
+                <label>
+                    <input type="checkbox" id="idioma3" name="idioma3">Ingles
+                </label>
+                <label>
+                    <input type="checkbox" id="idioma4" name="idioma4">Chino
+                </label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
+
+<p><a href="../index.html">Index</a></p>
+</body>
+</html>
