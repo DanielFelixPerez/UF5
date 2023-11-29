@@ -3,15 +3,23 @@ table {
     width: 60%;
     height: 60%;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    text-align: center;
 }
 
 th {
     border: 2px solid black;
-    width: 10px;
+    width: 100px;
     height: 50px;
     padding: 10px;
-    background-color: aqua;
+    background-color: silver;
 }
+
 td {
     border: 2px solid black;
     width: 10px;
@@ -21,4 +29,76 @@ td {
 }
 pre {
     font-size: 20px;
+}
+
+.clase-logoproven {
+    width: 100px;
+    height: 50px;
+
+}
+
+.clase-tut {
+    background-color: orange;
+    font-weight: bold;
+    font-size: 10px;
+    font-style:italic;
+    
+}
+
+.clase-m04 {
+    background-color: green;
+    font-weight: bold;
+    font-size: 11px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.clase-m06 {
+    background-color: brown;
+    font-weight: bold;
+    font-size:12px;
+    font-family: fantasy;
+}
+
+.clase-m07 {
+    background-color: violet;
+    font-weight: bold;
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.clase-m08 {
+    background-color: red;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clase-m12 {
+    background-color: darkcyan;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.clase-descanso {
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 25px;
+}
+.clase-horalibre {
+    background-color: blueviolet;
+}
+
+.clase-logo {
+    background-color: white;
+}
+
+body {
+    background-image: url(../imatges/fondo.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'MiFuenteDescargada';
+    src: url(/fonts/NovaSquare-Regular.ttf);
 }
