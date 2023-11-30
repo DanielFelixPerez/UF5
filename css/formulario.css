@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fielset_informacion {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.fielset_nacionalidad {
+    background-color: green;
+    border: 2px solid black;
+}
+
+.fielset_estudios {
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.fielset_idiomas {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.legend_informacion {
+    color: blue;
+    font-style: italic;
+}
+
+.legend_nacionalidad {
+    color: orange;
+    font-style: italic;
+}
+
+.legend_estudios {
+    color: blueviolet;
+    font-style: italic;
+}
+
+.legend_idiomas {
+    color: red;
+    font-style: italic;
+}
+
+.input_masespacio {
+    width: 300px;
+}
+
+.fieldset_final {
+    background-color: yellow;
+    border: 2px solid black;
+}
